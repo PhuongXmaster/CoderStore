@@ -1,5 +1,5 @@
 class VisitorsController < ApplicationController
   def index
-    @products = Product.all
+    @products = Product.alphabetical
   end
 end
